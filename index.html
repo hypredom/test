@@ -1,129 +1,82 @@
-<!DOCTYPE html>  
-<html lang="zh-CN">  
-  
-<head>  
-    <meta charset="utf-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1" />  
-    <title>深圳大学南区食堂</title>  
-    <style>  
-        body {  
-            margin: 0;  
-            height: 100vh;  
-            background-image: url('background.png'); 
-            background-repeat: no-repeat;  
-            background-size: cover;  
-        }  
-        .flex {  
-            display: flex;  
-        }  
-        .baiSe {  
-            background-color: white;  
-        }  
-        .flex1 {  
-            flex: 1;  
-        }  
-        .flex2 {  
-            flex: 2;  
-        }  
-        .flex3 {  
-            flex: 3;  
-        }  
-        .column {  
-            flex-direction: column;  
-        }  
-        .content-block {  
-            display: flex;  
-            align-items: center;  
-            justify-content: space-between;  
-            margin-bottom: 20px; /* 根据需要调整底部间距 */  
-        }  
-  
-        .image-container {  
-            flex: 0 0 50%; /* 图片容器占据50%的宽度 */  
-            text-align: left; /* 图片左对齐 */  
-        }  
-  
-        .image-container img {  
-            width: 100%; /* 图片宽度设置为容器宽度 */  
-            height: auto; /* 图片高度自动调整以维持比例 */  
-            max-width: 600px; /* 图片最大宽度 */  
-        }  
-  
-        .text-container {  
-             flex: 0 0 50%; /* 文本容器占据50%的宽度 */  
-            padding: 20px; /* 添加内部填充以提供空间 */  
-            box-sizing: border-box; /* 确保填充不影响容器宽度 */  
-        }  
-  
-        .text-container p {  
-              margin: 0; /* 移除默认的段落上下边距 */  
-        }  
-        .title-container {  
-            display: flex;  
-            justify-content: center;  
-            align-items: center;  
-            background-color: #99FFFF;  
-            height: 50px;  
-        }  
-        .actions-container {  
-            background-color: #f1f1f1;  
-            text-align: center;  
-            padding: 20px; /* 增加内边距 */  
-        }  
-        .comment-button {  
-            display: inline-block;  
-            padding: 10px 20px;  
-            background-color: #4CAF50;  
-            color: white;  
-            border: none;  
-            border-radius: 5px;  
-            cursor: pointer;  
-            margin: 10px;  
-        }  
-        .comment-button:hover {  
-            background-color: #45a049;  
-        }  
-    </style>  
-</head>  
-  
-<body>  
-    <!-- 头部栏 -->  
-    <div class="image-container">  
-        <img src="szu.png" alt="szu" style="height: auto;">  
-        <img src="f01_Gate.png" alt="f01_Gate" style="height: auto;">  
-        <img src="ccsse.png" alt="ccsse" style="height: auto;">  
-    </div>  
-  
-    <div class="title-container">  
-        <h2>深圳大学南区食堂——沧海餐厅</h2>  
-    </div>  
-  
-    <div class="actions-container">  
-        <input type="button" onclick="myFunction()" value="注册" />  
-        <input type="button" onclick="myFunction()" value="登录" />
-  
-        <script>  
-            function myFunction() {  
-                alert("前面的道路之后再来探索吧！");  
-            }  
- 
-        </script>  
-    </div>
-    
-    <div class="content-block">  
-      <div class="image-container">  
-        <img src="f07_chuangxin.png" alt="f07_chuangxin">  
-      </div>  
-      <div class="text-container">  
-        <p>创新菜品窗口：</p>  
-        <button class="comment-button" onclick="addComment()">添加评论</button>  
-      </div>  
-    </div>  
-      
-    <script>  
-    function addComment() {  
-      alert("感谢您的评论！");  
-    }  
-    </script>  
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>深圳大学南区食堂
+    </title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image:url('background.png');
+        }
+        *{
+            border: 1px;
+        }
+        .flex{
+            display: flex;
+            /*横向盒子*/
+        }
+        .baiSe{
+            background-color: white;
+        }
+        .flex1{
+            flex: 1;
+        }
+        .flex2{
+            flex: 2;
+        }
+        .flex3{
+            flex: 3;
+        }
+        .column{
+            flex-direction: column;
+            /*竖向盒子*/
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+}
+    </style>
+</head>
+
+<body class="column">
+<!-- 头部栏 -->
+<div class="image-container";
+     justify-content:center;
+     style="background-color: #f1f1f1;
+            height:230px;"
+>
+
+<img src="szu.png" alt="szu" width="450" height="135" style="margin:auto;">
+<img src="f01_Gate.png" alt="f01_Gate" width="450" height="200" style="margin:auto;">
+<img src="ccsse.png" alt="ccsse" width="480" height="150" style="margin:auto;">
+</div>
+
+<div display:flex;
+     justify-content:center;
+     style="background-color: #99FFFF;
+            text-align: center;
+            height: 50px;"
+>
+
+    <h2>深圳大学南区食堂——沧海餐厅</h2>
+</div>
+
+<div style="
+ background-color: #f1f1f1;
+ text-align: center;
+ ">
+    <script>
+        function myFunction(){
+            alert("前面的道路之后再来探索吧！");
+        }
+    </script>
+    <input type="button" onclick="myFunction()" value="注册       "  />
+    <input type="button" onclick="myFunction()" value="登录"  />
+</div>
 </body>  
 </html>
