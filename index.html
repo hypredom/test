@@ -72,41 +72,1072 @@
         <img src="f01_Gate.png" alt="f01_Gate" width="450" height="200" style="margin:auto;">  
         <img src="ccsse.png" alt="ccsse" width="480" height="150" style="margin:auto;">  
     </div>  
-  
+
+
+
     <div style="display:flex; justify-content:center; background-color: #99FFFF; text-align: center; height: 50px;">  
         <h2>深圳大学南区食堂——沧海餐厅</h2>  
-    </div>  
-  
+    </div>
+
     <div style="background-color: #f1f1f1; text-align: center;">  
-        <script>  
-            function myFunction() {  
-                alert("前面的道路之后再来探索吧！");  
-            }  
+        <script>
+            function myFunction1() {
+                var messages = [
+                    "前面的道路之后再来探索吧！",
+                    "门从另一边被锁住了。",
+                    "没有保险丝，没办法通电。",
+                    "没有反应，似乎是一具尸体。"
+                ];
+
+                var randomIndex = Math.floor(Math.random() * messages.length);
+
+                alert(messages[randomIndex]);
+            }
         </script>  
         <!-- 使用新的.btn样式类 -->  
-        <button onclick="myFunction()" class="btn">注册</button>  
-        <button onclick="myFunction()" class="btn">登录</button>  
-    </div>  
-    <div style="display:flex; justify-content:center; background-color: #99FFFF; text-align: center; height: 50px;">
+        <button onclick="myFunction1()" class="btn">注册</button>
+        <button onclick="myFunction1()" class="btn">登录</button>
+    </div>
+
+
+    <div style="display:flex; justify-content:center; background-color: #ff98dc; text-align: center; height: 50px;">
         <h3>食堂一楼</h3>
     </div>
 
+
     <div class="flex">
-    <!-- 图片区 -->
-     <div class="item">
-      <img src="f03_Noodles.png" alt="f03_Noodles" width="600px" height="350px" >
-     </div>
-   <!-- 文字区 -->
-     <div class="item">
-     <p>兰州牛肉拉面窗口：</p>
-     <button onclick="myFunction()" class="btn">添加评价</button>
-             <script>  
-            function myFunction() {  
-                alert("感谢您的评价！");  
-            }  
-        </script>  
-     </div>
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f15_hall.png" alt="f15_hall" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>餐厅介绍：</p>
+            <p>“位于一楼的地势使其成为了阻止饭点饿鬼大学生进军食堂的第一道防线。”</p>
+
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
     </div>
+
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f03_Noodles.png" alt="f03_Noodles" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>兰州牛肉拉面窗口：</p>
+            <p>“8元拉面，量大管饱，当之无愧的性价比之王，月底学生的不二之选。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f04_YingYangDunGu.png" alt="f04_YingYangDunGu" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>营养炖蛊窗口：</p>
+            <p>“从未尝试的窗口，一个听起来很营养但不好吃的名字。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f05_Teaching.png" alt="f05_Teaching" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>教工专用窗口：</p>
+            <p>“虽说教工专用但学生亦可食，看到喜欢的菜请大胆的拿起校园卡冲上去——”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f07_chuangxin.png" alt="f07_chuangxin" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>创新菜品窗口：</p>
+            <p>“虽有创新之名，但里面的菜品总觉得有几分似曾相识，
+                一定是在某不知名的大众菜窗口见过吧。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f08_setmeal.png" alt="f08_setmeal" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>潮式套餐窗口：</p>
+            <p>”不一定很潮，但是一定很菜，因为白菜是一款南区食堂套餐的常驻嘉宾。“</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f09_popular.png" alt="f09_popular" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>大众菜窗口：</p>
+            <p>“每个食堂最坚实的后盾，拥有最多的窗口和最多的菜品，但是比创新窗口更喜欢创新，请小心不要被奇怪的菜背刺。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f10_soup.png" alt="f10_soup" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>免费汤窗口：</p>
+            <p>“这可是免费的哦？真的不来一碗吗。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f11_maocai.png" alt="f11_maocai" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>自选冒菜窗口：</p>
+            <p>“自由度很高，所以价格上限也很高，请注意食量避免浪费食物。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f12_pigsoup_noodles.png" alt="f12_pigsoup_noodles" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>猪杂粉汤/面窗口：</p>
+            <p>“喜欢猪杂的可以一试。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f13_pigsoup_meal.png" alt="f13_pigsoup_meal" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>猪杂汤饭窗口：</p>
+            <p>“这个窗口我刚刚见过的呀！”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f14_8.2jianpataocan.png" alt="f14_8.2jianpataocan" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>煎扒套餐窗口：</p>
+            <p>“最便宜仅8.2元一份，我们南区食堂也有自己的穷鬼套餐！”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="f02_Drink.png" alt="f02_Drink" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>面包房店：</p>
+            <p>“以前是面包房顺便干着买饮料的活，现在饮料冰箱数量翻倍，融合售卖包括但不限于茶叶蛋玉米关东煮等食物，逐渐朝无敌的方向发展。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div style="display:flex; justify-content:center; background-color: #b5b3eb; text-align: center; height: 50px;">
+        <h3>食堂二楼</h3>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s01_hall.png" alt="s01_hall" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>餐厅介绍：</p>
+            <p>“爬楼梯，走扶梯，或是从二楼大平台绕道，请选择你的上楼吃饭方式。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s02_tiebancai.png" alt="s02_tiebancai" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>铁板菜窗口：</p>
+            <p>“或许你曾在食堂门口看到铁板菜的宣传牌，有没有一瞬间心动想上楼尝试呢？”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s03_friednoodles~1.png" alt="s03_friednoodles~1" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>现点炒粉/面窗口：</p>
+            <p>“实际上做的最多的是现点炒菜。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s04_changfen~1.png" alt="s04_changfen~1" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>肠粉窗口：</p>
+            <p>“食堂最后的良心，仅需3元就可以在痛苦的早八前温暖你的心和胃。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "默认好评，感谢您的评价！",
+                        "默认好评，感谢您的评价！",
+                        "默认好评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s05_jiaozi~1.png" alt="s05_jiaozi~1" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>北方水饺窗口：</p>
+            <p>“饺子饺子饺饺子。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s07_zhajiangmian~1.png" alt="s07_zhajiangmian~1" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>炸酱面/牛腩面窗口：</p>
+            <p>“我和兰州牛肉拉面窗口的感情坚不可摧呀！”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s08_wonton.png" alt="s08_wonton" width="300px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>砂锅粉面/云吞窗口：</p>
+            <p>“小心烫嘴。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s09_roastduck.png" alt="s09_roastduck" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>烧鸭窗口：</p>
+            <p>“伟大，无需多言，二楼永远排队人最多的窗口。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s10_pigsoup.png" alt="s10_pigsoup" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>猪杂汤饭窗口：</p>
+            <p>“怎么又是你啊。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s11_popular.png" alt="s11_popular" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>大众窗口：</p>
+            <p>“当烧鸭排长队的时候，你就可以转身投入大众菜的怀抱了。。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s12_teaching.png" alt="s12_teaching" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>教工供餐窗口：</p>
+            <p>“有时会刷新出其他窗口不会出现的好吃家常菜。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="taocan.png" alt="taocan" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>套餐窗口：</p>
+            <p>“手撕鸡和辣子鸡绝赞好味，有机会请一定要尝试，绝对不是制作人的夹带私货。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "默认好评，感谢您的评价！",
+                        "默认好评，感谢您的评价！",
+                        "默认好评，感谢您的评价！",
+                        "默认好评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="s13_drink.png" alt="s13_drink" width="500px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>饮料店：</p>
+            <p>“玻璃瓶装汽水何时回归，想那一声清脆的开瓶声了。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div style="display:flex; justify-content:center; background-color: #fff790; text-align: center; height: 50px;">
+        <h3>食堂三楼</h3>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t03_hall.png" alt="t03_hall" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>餐厅介绍：</p>
+            <p>“和一二楼相比十分的高端，人称校园外卖店。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t01_zixuancan.png" alt="t01_zixuancan" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>荔园自选快餐：</p>
+            <p>“什么，你不知道这个窗口用校园卡付款有折扣？”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t04_jiaozi.png" alt="t04_jiaozi" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>七号自选水饺：</p>
+            <p>“饺子虽好吃，但也要留意不要误拿别人的餐。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t02_malatang.png" alt="t02_malatang" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>椒气小姐麻辣烫：</p>
+            <p>“经典款麻辣烫，和一楼的冒菜从组成成分上来看算是亲戚。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t03baozaifan.png" alt="t03baozaifan" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>小煲总煲仔饭：</p>
+            <p>“很霸气的名字，很朴实的煲仔饭。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t09_chickenmeal.png" alt="t09_chickenmeal" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>旺客基黄焖鸡米饭：</p>
+            <p>“名字包含美好愿望，但量大管饱且便宜才可能旺客。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t09_luoshifen.png" alt="t09_luoshifen" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>桂林米粉螺狮粉：</p>
+            <p>“为了您和舍友的融洽相处，请不要轻易打包回宿舍吃。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t10_fishmeal.png" alt="t10_fishmeal" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>五谷渔粉：</p>
+            <p>“缓慢进食以避免烫嘴和汤水四溅。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t11_hanburg.png" alt="t11_hanburg" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>荔园、汉堡、炸鸡：</p>
+            <p>“科x园、麦x劳、肯x基。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+
+
+    <div class="flex">
+        <!-- 图片区 -->
+        <div class="item">
+            <img src="t07_fruit.png" alt="t07_fruit" width="600px" height="400px" >
+        </div>
+        <!-- 文字区 -->
+        <div class="item">
+            <p>水果捞：</p>
+            <p>“在南区超市至今关闭的情况下成为了稀有的水果售卖点，并没有因为这点顾客爆满。”</p>
+            <button onclick="myFunction()" class="btn">添加评价</button>
+            <script>
+                function myFunction() {
+                    var messages1 = [
+                        "连接已丢失，请重试。",
+                        "默认好评，感谢您的评价！",
+                        "默认中评，感谢您的评价！",
+                        "默认差评，感谢您的评价！"
+                    ];
+
+                    var randomIndex1 = Math.floor(Math.random() * messages1.length);
+
+                    alert(messages1[randomIndex1]);
+                }
+            </script>
+        </div>
+    </div>
+</body>  
   
-</body>   
 </html>
