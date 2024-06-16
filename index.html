@@ -1,97 +1,112 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>深圳大学南区食堂
-    </title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            background-image:url('background.png');
-        }
-        *{
-            border: 1px;
-        }
-        .flex{
-            display: flex;
-            /*横向盒子*/
-        }
-        .baiSe{
-            background-color: white;
-        }
-        .flex1{
-            flex: 1;
-        }
-        .flex2{
-            flex: 2;
-        }
-        .flex3{
-            flex: 3;
-        }
-        .column{
-            flex-direction: column;
-            /*竖向盒子*/
-        }
-        .image-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .btn {  
-    display: inline-block; 
-    padding: 10px 20px;  
-    margin: 10px; 
-    background-color: #4CAF50;   
-    color: white;  
-    border: none; 
-    border-radius: 4px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease;  
-}  
+<!DOCTYPE html>  
+<html lang="zh-CN">  
   
-.btn:hover {  
-    background-color: #45a049;  
-}
-    </style>
-</head>
-
-<body class="column">
-<!-- 头部栏 -->
-<div class="image-container"
-     justify-content:center;
-     style="background-color: #f1f1f1;
-            height:230px;"
->
-
-<img src="szu.png" alt="szu" width="450" height="135" style="margin:auto;">
-<img src="f01_Gate.png" alt="f01_Gate" width="450" height="200" style="margin:auto;">
-<img src="ccsse.png" alt="ccsse" width="480" height="150" style="margin:auto;">
-</div>
-
-<div justify-content:center;
-     style="background-color: #99FFFF;
-            text-align: center;
-            display:flex;
-            height: 50px;"
->
-
-    <h2>深圳大学南区食堂——沧海餐厅</h2>
-</div>
-
-<div style="
- background-color: #f1f1f1;
- text-align: center;
- ">
-    <script>
-        function myFunction(){
-            alert("前面的道路之后再来探索吧！");
+<head>  
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+    <title>深圳大学南区食堂</title>  
+    <style>  
+        body {  
+            margin: 0;  
+            height: 100vh;  
+            background-image: url('background.png');  
+        }  
+        * {  
+            border: 1px solid transparent; /* 添加了transparent以避免实际边框显示 */  
+        }  
+        .flex {  
+            display: flex;  
+            /*横向盒子*/  
+        }  
+        .baiSe {  
+            background-color: white;  
+        }  
+        .flex1 {  
+            flex: 1;  
+        }  
+        .flex2 {  
+            flex: 2;  
+        }  
+        .flex3 {  
+            flex: 3;  
+        }  
+        .column {  
+            flex-direction: column;  
+            /*竖向盒子*/  
+        }  
+        .image-container {  
+            display: flex;  
+            justify-content: space-around;  
+            align-items: center;  
+        }  
+  
+        /* 新增的按钮样式 */  
+        .btn {  
+            display: inline-block;  
+            padding: 10px 20px; /* 调整按钮大小 */  
+            margin: 10px;  
+            background-color: #4CAF50;  
+            color: white;  
+            border: none;  
+            border-radius: 4px;  
+            cursor: pointer;  
+            transition: background-color 0.3s ease;  
+        }  
+  
+        .btn:hover {  
+            background-color: #45a049;  
         }
-    </script>
-<button onclick="myFunction()" class="btn">注册        </button>  
-<button onclick="myFunction()" class="btn">登录</button>
-</div>
-</body>
+        .item {
+        width:50%;
+        margin: 10px; 
+        background-color: #f0f0f0; 
+        text-align: center; 
+        }  
+    </style>  
+</head>  
+  
+<body class="column">  
+    <!-- 头部栏 -->  
+    <div class="image-container" style="background-color: #f1f1f1; height:230px;">  
+        <img src="szu.png" alt="szu" width="450" height="135" style="margin:auto;">  
+        <img src="f01_Gate.png" alt="f01_Gate" width="450" height="200" style="margin:auto;">  
+        <img src="ccsse.png" alt="ccsse" width="480" height="150" style="margin:auto;">  
+    </div>  
+  
+    <div style="display:flex; justify-content:center; background-color: #99FFFF; text-align: center; height: 50px;">  
+        <h2>深圳大学南区食堂——沧海餐厅</h2>  
+    </div>  
+  
+    <div style="background-color: #f1f1f1; text-align: center;">  
+        <script>  
+            function myFunction() {  
+                alert("前面的道路之后再来探索吧！");  
+            }  
+        </script>  
+        <!-- 使用新的.btn样式类 -->  
+        <button onclick="myFunction()" class="btn">注册</button>  
+        <button onclick="myFunction()" class="btn">登录</button>  
+    </div>  
+    <div style="display:flex; justify-content:center; background-color: #99FFFF; text-align: center; height: 50px;">
+        <h3>食堂一楼</h3>
+    </div>
+
+    <div class="flex">
+    <!-- 图片区 -->
+     <div class="item">
+      <img src="f03_Noodles.png" alt="f03_Noodles" width="600px" height="350px" >
+     </div>
+   <!-- 文字区 -->
+     <div class="item">
+     <p>兰州牛肉拉面窗口：</p>
+     <button onclick="myFunction()" class="btn">添加评价</button>
+             <script>  
+            function myFunction() {  
+                alert("感谢您的评价！");  
+            }  
+        </script>  
+     </div>
+    </div>
+  
+</body>   
 </html>
